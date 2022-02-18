@@ -4,12 +4,12 @@ A python based tool which is used for recovering zip file password by dictionary
 1) You have any terminal (eg. Linux)
 2) Installed python3 on your system. ( In linux type this command on your terminal:- apt install python3 -y ) 
 # How to download and run
-    git clone https://github.com/TheHatsFamily/zip-cracker.git
-    cd zip-cracker
+    git clone https://github.com/TheHatsFamily/Zip-Cracker.git
+    cd Zip-Cracker
     chmod +x zCracker.py
     ./zCracker.py
 ## How to download and run in one step
-    git clone https://github.com/TheHatsFamily/zip-cracker.git; cd zip-cracker; chmod +x zCracker.py; ./zCracker.py
+    git clone https://github.com/TheHatsFamily/Zip-Cracker.git; cd Zip-Cracker; chmod +x zCracker.py; ./zCracker.py
 # How to use
 When you start it by ./zCracker.py, it will ask you about Zip file path,
 > Note:- Here you must be a valid path of zip file which you want to crack. 
