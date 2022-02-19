@@ -16,7 +16,8 @@ def extractFile(zfile, passwd):
 while True:
 	try:
 		zfile = input(f'{yellow}[{blue}*{yellow}] Enter Zip File Path Here: {green}')
-		open(zfile)
+		open_file = open(zfile)
+                open_file.close()
 	except FileNotFoundError:
 		print(f'{yellow}[{red}-{yellow}] {red}File Not Found, Give Correct Path Of File.')
 		continue
@@ -26,7 +27,8 @@ while True:
 		while True:
 			try:
 				passfile = input(f'{yellow}[{blue}*{yellow}] Enter Password File Path Here: {green}')
-				open(passfile)
+				pass_file = open(passfile)
+                                pass_file.close()
 			except FileNotFoundError:
 				print(f'{yellow}[{red}-{yellow}] File Not Found, Give Correct Path Of File.')
 				continue
